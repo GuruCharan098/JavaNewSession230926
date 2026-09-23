@@ -1,4 +1,18 @@
 package firstJavaProgram;
+//import java.util.Scanner;
+
+class Test{
+	 
+	void calculation() {
+		 //int res = 10/0; // infinity result issues
+		int num = 10; 
+		int res = num/2;
+		 System.out.println(res);
+		 System.out.println(num);
+
+	}
+	
+}
 
 
 public class HelloWorld {
@@ -22,8 +36,14 @@ public class HelloWorld {
 		System.out.println("Welcome to the First Java Program...!");
 		
 		HelloWorld hw = new HelloWorld();
-//		 hw.name = "Rahul";
-//		 hw.display();
+		Test ts = new Test();
+//		Scanner sc = new Scanner(System.in);
+		
+		
+		 hw.name = "Rahul";
+		 hw.display();
+		 ts.calculation();
+		
 
 	}
 
