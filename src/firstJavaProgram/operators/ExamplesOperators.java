@@ -127,6 +127,29 @@ class IncreAndDecreOperators{
 	
 }
 
+class TernaryOperator{
+	 
+	  int age = 17; 
+	  
+	  {	  
+		  String result = (age>=18)? "Adult":"Minor"; 
+		  System.out.println(result);
+		  
+		  if(age>=18)
+			  System.out.println("Adult");
+		  else
+			  System.out.println("Minor");
+	  }
+}
+
+class OpertorPrecedence{
+	
+	 void orderExecuation() {		 
+		  int i = 10*(2+4)-10;   
+		  System.out.println(i);
+	 }
+}
+
 public class ExamplesOperators {
       public static void main(String[] args) {
     	  
@@ -171,7 +194,10 @@ public class ExamplesOperators {
           IDO.decrementOp();
           
           
-//          if()else
+          TernaryOperator TO = new TernaryOperator();
+          OpertorPrecedence OP = new OpertorPrecedence();
+          System.out.println("__________________________________________");
+          OP.orderExecuation();
         	  
           
     	  
