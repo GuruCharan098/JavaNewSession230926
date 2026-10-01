@@ -32,6 +32,15 @@ public class ExampleAbstarctClassConpt {
 		   Dog dg = new Dog();
 		   Cat ct = new Cat();
 		   
+		   Animal an1 = new Dog(); 
+		   Animal an2 = new Cat(); 
+		   
+		   an1.eat();
+		   an2.eat();
+		   
+		   an1.sound();
+		   an2.sound();
+		   
 		   
 		   dg.eat();
 		   ct.eat();
