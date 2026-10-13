@@ -9,6 +9,8 @@ public class ExampleMethodInterfaces {
 		List<String> names = Arrays.asList("Rahul", "Amit", "Priya");
 		
 		names.forEach(System.out::println);
+//		System.out::println
+//		(name) -> System.out.println(name); 
 		
 		
 		Consumer<String> printer = System.out::println;
