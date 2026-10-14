@@ -36,11 +36,7 @@ public class ExampleDateAndTimeConcept {
 		System.out.println(experience.getYears());
 		
 		
-		List<String> student = Arrays.asList("Ram", "Aman", "Deepa");
 		
-		student.forEach(std -> {
-			System.out.println(std);
-		});
  
 		
 	}

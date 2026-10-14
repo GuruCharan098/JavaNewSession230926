@@ -37,11 +37,8 @@ public class ExampleStreamAPIConcept {
 		
 		
 		// Collectors : 		
-       List<Integer> student = Arrays.asList(10, 15, 20, 25, 30);
-       
-       
-       List<String> name = Arrays.asList("Java", "React", "JavaScript", "HTML", "CSS");
-       
+       List<Integer> student = Arrays.asList(10, 15, 20, 25, 30);        
+       List<String> name = Arrays.asList("Java", "React", "JavaScript", "HTML", "CSS");       
          List<String> response = name.stream()
         		 .map(String::toLowerCase)
         		 .collect(Collectors.toList());
@@ -71,8 +68,7 @@ public class ExampleStreamAPIConcept {
 	     System.out.println(grouped);
 	     
 	     
-	     // Parallel Stream : 
-	     
+	     // Parallel Stream :      
 	     List<Integer> num = Arrays.asList(10, 20, 30, 40, 50, 60);
 	     
 	     int total = num.parallelStream()
